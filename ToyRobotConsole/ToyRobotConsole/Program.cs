@@ -40,7 +40,7 @@ namespace ToyRobotConsole
                         y = Convert.ToInt32(myval[2]);
                         CurrentFacing = myval[3]; // Assign the recent facing to a variable
                         DrawBox(x, y, CurrentFacing);
-                        Console.WriteLine("Current position:( " + x + " , " + y + ", Facing " + CurrentFacing + ")");
+                        Console.WriteLine("Current position:( " + x + " , " + y + ", " + CurrentFacing + ")");
                     }
                     else
                         Console.WriteLine("Please provide a valid command.");
@@ -52,28 +52,28 @@ namespace ToyRobotConsole
                     x = Cursorposition[0]; y = Cursorposition[1];
                     DrawBox(x, y, CurrentFacing);
                     if (Cursorposition[2] >= 0)
-                        Console.WriteLine("Current position:( " + x + " , " + y + ", Facing " + CurrentFacing + ")");
+                        Console.WriteLine("Current position:( " + x + " , " + y + ", " + CurrentFacing + ")");
                     else
                         Console.WriteLine("\r\nPlease verify your command. The toy robot will not move afterward.");
                 }
                 else if (command == "REPORT")
                 {
                     DrawBox(x, y, CurrentFacing);
-                    Console.WriteLine("Current position:( " + x + " , " + y + ", Facing " + CurrentFacing + ")");
+                    Console.WriteLine("Current position:( " + x + " , " + y + ",  " + CurrentFacing + ")");
                 }
                 else if (command == "LEFT")
                 {
                     Console.Clear();
                     CurrentFacing = MoveLeftRobot.TurnLeft(CurrentFacing);
                     DrawBox(x, y, CurrentFacing);
-                    Console.WriteLine("Current position:( " + x + " , " + y + ", Facing " + CurrentFacing + ")");
+                    Console.WriteLine("Current position:( " + x + " , " + y + ", " + CurrentFacing + ")");
                 }
                 else if (command == "RIGHT")
                 {
                     Console.Clear();
                     CurrentFacing = MoveRightRobot.TurnRight(CurrentFacing);
                     DrawBox(x, y, CurrentFacing);
-                    Console.WriteLine("Current position:( " + x + " , " + y + ", Facing " + CurrentFacing + ")");
+                    Console.WriteLine("Current position:( " + x + " , " + y + ", " + CurrentFacing + ")");
                 }
 
                 else
