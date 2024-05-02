@@ -1,0 +1,7 @@
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\bin\Debug\ToyRobotConsole.exe
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\bin\Debug\ToyRobotConsole.exe.config
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\obj\Debug\ToyRobotConsole.csproj.AssemblyReference.cache
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\obj\Debug\ToyRobotConsole.csproj.CoreCompileInputs.cache
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\obj\Debug\ToyRobotConsole.exe
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\obj\Debug\ToyRobotConsole.pdb
+D:\TestProject\Robot-CodingChallenge\ToyRobotConsole\ToyRobotConsole\bin\Debug\ToyRobotConsole.pdb
